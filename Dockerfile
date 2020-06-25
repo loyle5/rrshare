@@ -5,7 +5,6 @@ ADD http://appdown.rrys.tv/rrshareweb_linux.tar.gz /rrshareweb.tar.gz
 RUN tar -xzf /rrshareweb.tar.gz && rm /rrshareweb.tar.gz
 
 VOLUME ["/opt/work/rrshareweb/data"]
-EXPOSE 3001
-EXPOSE 6714
+EXPOSE 3001 6714
 
 ENTRYPOINT [ "/rrshareweb/rrshareweb" ]
