@@ -1,6 +1,6 @@
 FROM centos:7
 
-ADD http://appdown.rrys.tv/rrshareweb_centos7.tar.gz /rrshareweb.tar.gz
+ADD http://appdown.rrys.tv/rrshareweb_linux.tar.gz /rrshareweb.tar.gz
 
 RUN tar -xzf /rrshareweb.tar.gz && rm /rrshareweb.tar.gz
 
